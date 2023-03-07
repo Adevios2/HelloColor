@@ -15,15 +15,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
     
     
     @IBAction func changeColor(_ sender: Any) {
         if isPurple {
+            //
             view.backgroundColor = UIColor.blue
             isPurple = false
         } else {
+            //
             view.backgroundColor = UIColor.purple
             isPurple = true
         }
